@@ -1,0 +1,29 @@
+{
+    "individual_dataset_result": {
+        "narrativeqa": 23.42,
+        "qasper": 40.69,
+        "multifieldqa_en": 49.35,
+        "hotpotqa": 48.81,
+        "2wikimqa": 37.77,
+        "musique": 21.2,
+        "gov_report": 34.02,
+        "qmsum": 23.63,
+        "multi_news": 26.53,
+        "trec": 71.5,
+        "triviaqa": 88.89,
+        "samsum": 43.2,
+        "passage_retrieval_en": 89.0,
+        "lcc": 52.13,
+        "repobench-p": 54.16,
+        "passage_count": 5.5
+    },
+    "task_average_result": {
+        "single_doc_qa": 37.82,
+        "multi_doc_qa": 35.93,
+        "summarization": 28.06,
+        "few_shots": 67.86,
+        "synthetic": 47.25,
+        "code": 53.14
+    },
+    "LB_average_result": 46.95
+}

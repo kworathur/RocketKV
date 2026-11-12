@@ -1,0 +1,37 @@
+/home/hice1/kworathur3/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+W1020 23:37:45.703000 23456244553536 torch/fx/experimental/symbolic_shapes.py:4449] [0/0] rindex is not in var_ranges, defaulting to unknown range.
+W1020 23:37:45.745000 23456244553536 torch/fx/experimental/symbolic_shapes.py:4449] [0/0] xindex is not in var_ranges, defaulting to unknown range.
+/home/hice1/kworathur3/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+/home/hice1/kworathur3/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+Using device=cuda
+Loading model ...
+Time to load model: 23.10 seconds
+Compilation time: 93.56 seconds
+Time for decoding 1: 0.66 sec total, 75.50 tokens/sec
+Bandwidth achieved: 1133.30 GB/s
+FLOPS achieved: 372.49 TF/s
+Memory usage for prefill: 21.58 GB
+Memory usage for decoding: 17.23 GB
+
+Time for decoding 2: 0.66 sec total, 75.38 tokens/sec
+Bandwidth achieved: 1131.50 GB/s
+FLOPS achieved: 371.90 TF/s
+Memory usage for prefill: 21.58 GB
+Memory usage for decoding: 17.23 GB
+
+Time for decoding 3: 0.66 sec total, 75.25 tokens/sec
+Bandwidth achieved: 1129.48 GB/s
+FLOPS achieved: 371.24 TF/s
+Memory usage for prefill: 21.58 GB
+Memory usage for decoding: 17.23 GB
+
+Summary ==========
+Batch Size: 1
+Prompt Length: 16384
+Generated tokens: 50
+Average tokens/sec: 75.38
+Peak Memory usage for prefill: 21.58 GB
+Peak Memory usage for decoding: 17.30 GB

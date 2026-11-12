@@ -1,0 +1,36 @@
+/home/hice1/kworathur3/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+W1020 22:52:05.580000 23456244553536 torch/fx/experimental/symbolic_shapes.py:4449] [0/0] xindex is not in var_ranges, defaulting to unknown range.
+/home/hice1/kworathur3/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+/home/hice1/kworathur3/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+Using device=cuda
+Loading model ...
+Time to load model: 5.15 seconds
+Compilation time: 66.18 seconds
+Time for decoding 1: 0.95 sec total, 52.49 tokens/sec
+Bandwidth achieved: 787.87 GB/s
+FLOPS achieved: 500.99 TF/s
+Memory usage for prefill: 23.55 GB
+Memory usage for decoding: 21.30 GB
+
+Time for decoding 2: 0.96 sec total, 52.22 tokens/sec
+Bandwidth achieved: 783.80 GB/s
+FLOPS achieved: 498.40 TF/s
+Memory usage for prefill: 23.55 GB
+Memory usage for decoding: 21.30 GB
+
+Time for decoding 3: 0.96 sec total, 52.13 tokens/sec
+Bandwidth achieved: 782.52 GB/s
+FLOPS achieved: 497.59 TF/s
+Memory usage for prefill: 23.55 GB
+Memory usage for decoding: 21.30 GB
+
+Summary ==========
+Batch Size: 1
+Prompt Length: 31744
+Generated tokens: 50
+Average tokens/sec: 52.28
+Peak Memory usage for prefill: 23.55 GB
+Peak Memory usage for decoding: 21.42 GB

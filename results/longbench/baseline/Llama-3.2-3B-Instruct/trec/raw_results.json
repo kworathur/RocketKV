@@ -1,0 +1,802 @@
+[
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Color",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Currency",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Description of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Currency",
+        "score": 0.0
+    },
+    {
+        "answers": " Description of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Event",
+        "score": 0.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Other entity",
+        "score": 1.0
+    },
+    {
+        "answers": " Distance, linear measure",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Percent, fraction",
+        "score": 0.0
+    },
+    {
+        "answers": " Disease and medicine",
+        "score": 0.0
+    },
+    {
+        "answers": " Distance, linear measure",
+        "score": 1.0
+    },
+    {
+        "answers": " Expression abbreviated",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Other entity",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Element and substance",
+        "score": 1.0
+    },
+    {
+        "answers": " Other number",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " City",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Musical instrument",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Lasting time of somethin",
+        "score": 1.0
+    },
+    {
+        "answers": " Disease and medicine",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Distance, linear measure",
+        "score": 1.0
+    },
+    {
+        "answers": " Distance, linear measure",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Word with a special property",
+        "score": 0.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Group or organization of person",
+        "score": 1.0
+    },
+    {
+        "answers": " Expression abbreviated",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Group or organization of person",
+        "score": 0.0
+    },
+    {
+        "answers": " Other entity",
+        "score": 0.0
+    },
+    {
+        "answers": " Currency",
+        "score": 0.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Distance, linear measure",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Description of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Number of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Lasting time of somethin",
+        "score": 1.0
+    },
+    {
+        "answers": " Equivalent term",
+        "score": 0.0
+    },
+    {
+        "answers": " Vehicle",
+        "score": 0.0
+    },
+    {
+        "answers": " Other entity",
+        "score": 0.0
+    },
+    {
+        "answers": " Element and substance",
+        "score": 0.0
+    },
+    {
+        "answers": " Color",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " City",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Country",
+        "score": 1.0
+    },
+    {
+        "answers": " Number of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Disease and medicine",
+        "score": 0.0
+    },
+    {
+        "answers": " City",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Continent",
+        "score": 0.0
+    },
+    {
+        "answers": " City",
+        "score": 1.0
+    },
+    {
+        "answers": " Element and substance",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Group or organization of person",
+        "score": 0.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Disease and medicine",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Manner of an action",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Expression abbreviated",
+        "score": 1.0
+    },
+    {
+        "answers": " Equivalent term",
+        "score": 1.0
+    },
+    {
+        "answers": " City",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Other number",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Number of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 0.0
+    },
+    {
+        "answers": " Other number",
+        "score": 1.0
+    },
+    {
+        "answers": " Description of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Disease and medicine",
+        "score": 0.0
+    },
+    {
+        "answers": " Equivalent term",
+        "score": 0.0
+    },
+    {
+        "answers": " Element and substance",
+        "score": 0.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Element and substance",
+        "score": 1.0
+    },
+    {
+        "answers": " Price",
+        "score": 0.0
+    },
+    {
+        "answers": " Country",
+        "score": 1.0
+    },
+    {
+        "answers": " City",
+        "score": 1.0
+    },
+    {
+        "answers": " Group or organization of person",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Disease and medicine",
+        "score": 0.0
+    },
+    {
+        "answers": " Reason",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Price",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Lasting time of somethin",
+        "score": 1.0
+    },
+    {
+        "answers": " Color",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Group or organization of person",
+        "score": 1.0
+    },
+    {
+        "answers": " Description of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " State",
+        "score": 1.0
+    },
+    {
+        "answers": " Animal",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Description of a person",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Number of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " City",
+        "score": 1.0
+    },
+    {
+        "answers": " Number of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Element and substance",
+        "score": 0.0
+    },
+    {
+        "answers": " Reason",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Expression abbreviated",
+        "score": 0.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Distance, linear measure",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Disease and medicine",
+        "score": 0.0
+    },
+    {
+        "answers": " Color",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Currency name",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Element and substance",
+        "score": 0.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Frequency",
+        "score": 0.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Language",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Individual",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Other location",
+        "score": 1.0
+    },
+    {
+        "answers": " Sport",
+        "score": 1.0
+    },
+    {
+        "answers": " Expression abbreviated",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Number of something",
+        "score": 0.0
+    },
+    {
+        "answers": " Number of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Other entity",
+        "score": 0.0
+    },
+    {
+        "answers": " Date",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " State",
+        "score": 1.0
+    },
+    {
+        "answers": " Definition of something",
+        "score": 1.0
+    },
+    {
+        "answers": " Other number",
+        "score": 0.0
+    }
+]

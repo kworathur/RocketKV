@@ -1,0 +1,858 @@
+2026-11-11 05:24:19,409 | INFO : Experiment longbench_2wikimqa_Llama-3.2-3B-Instruct_baseline (SEED=42) started at 2026-11-11 05:24:19.343232-06:00 with the following config: 
+2026-11-11 05:24:19,410 | INFO : {
+    "pipeline_params": {
+        "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+        "tokenizer_name": "meta-llama/Llama-3.2-3B-Instruct",
+        "chat_template": "llama3",
+        "model_max_len": 127500,
+        "fattn": true,
+        "use_flash_attn": true,
+        "truncation_mode": "middle",
+        "batch_size": 1,
+        "out_of_max_len_allowed": true,
+        "base": 500000,
+        "rope_theta_factor": 1.0,
+        "method": "baseline",
+        "token_budget": 4096,
+        "scdq_mode": false
+    },
+    "eval_params": {
+        "dataset": "2wikimqa",
+        "dataset_path": "dataset/longbench",
+        "instruction": "Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages.\n{context}\n\nAnswer the question based on the given passages. Only give me the answer and do not output any other words.\n\nQuestion: {input}\nAnswer:",
+        "instruction_position": "prefix",
+        "max_new_tokens": 32,
+        "eval_metrics": [
+            "qa_f1_score"
+        ]
+    },
+    "eval_results": {},
+    "management": {
+        "exp_desc": "longbench_2wikimqa_Llama-3.2-3B-Instruct_baseline",
+        "pipeline_config_dir": "config/pipeline_config/longbench/Llama-3.2-3B-Instruct.json",
+        "eval_config_dir": "config/eval_config/longbench/2wikimqa.json",
+        "output_folder_dir": "results/longbench/baseline/Llama-3.2-3B-Instruct/2wikimqa/",
+        "job_post_via": "slurm_sbatch",
+        "slurm_info": {
+            "slurm_job_id": "6944288",
+            "slurm_job_name": "rocketkv_llama_longbench",
+            "slurm_out_file_dir": "/storage/ice1/8/6/kworathur3/cs6222/RocketKV/slurm-6944288.out"
+        },
+        "sub_dir": {
+            "input_config": "input_config/",
+            "raw_results": "raw_results.json",
+            "result_vis": "result_vis.png",
+            "output_config": "output_config.json"
+        }
+    }
+}
+2026-11-11 05:26:07,558 | INFO : raw_results file saved to results/longbench/baseline/Llama-3.2-3B-Instruct/2wikimqa/raw_results.json.
+2026-11-11 05:26:07,558 | INFO : Experiments concluded, below is the raw_results: 
+2026-11-11 05:26:07,559 | INFO : [
+    {
+        "answers": "Transylvania",
+        "score": 0.0
+    },
+    {
+        "answers": "Diana Weston",
+        "score": 0.0
+    },
+    {
+        "answers": "France",
+        "score": 0.0
+    },
+    {
+        "answers": "Yes",
+        "score": 0.0
+    },
+    {
+        "answers": "c. 1532",
+        "score": 0.0
+    },
+    {
+        "answers": "Hashim ibn 'Abd Manaf",
+        "score": 0.0
+    },
+    {
+        "answers": "1342",
+        "score": 0.0
+    },
+    {
+        "answers": "Alboin",
+        "score": 0.0
+    },
+    {
+        "answers": "St Patrick's College, Dublin",
+        "score": 0.8571428571428571
+    },
+    {
+        "answers": "Katherine Stenholm",
+        "score": 0.0
+    },
+    {
+        "answers": "The House Of The Seven Hawks",
+        "score": 1.0
+    },
+    {
+        "answers": "Beatrice of Luxembourg",
+        "score": 0.3333333333333333
+    },
+    {
+        "answers": "Nocher II, Count of Bar-sur-Aube",
+        "score": 0.6
+    },
+    {
+        "answers": "1799",
+        "score": 0.0
+    },
+    {
+        "answers": "United States",
+        "score": 0.0
+    },
+    {
+        "answers": "Edward Buzzell",
+        "score": 0.0
+    },
+    {
+        "answers": "1932",
+        "score": 0.0
+    },
+    {
+        "answers": "No",
+        "score": 1.0
+    },
+    {
+        "answers": "Yes",
+        "score": 0.0
+    },
+    {
+        "answers": "Mysore",
+        "score": 1.0
+    },
+    {
+        "answers": "Hamar",
+        "score": 0.0
+    },
+    {
+        "answers": "The Lee Strasberg Theatre and Film Institute.",
+        "score": 1.0
+    },
+    {
+        "answers": "The Soviet Story",
+        "score": 0.0
+    },
+    {
+        "answers": "Cipriano Castro",
+        "score": 1.0
+    },
+    {
+        "answers": "The Year Of The Rabbit",
+        "score": 0.0
+    },
+    {
+        "answers": "Altu\u011f \u00c7elikbilek",
+        "score": 1.0
+    },
+    {
+        "answers": "Jugband Blues",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Baldwin I R\u00e1t\u00f3t",
+        "score": 0.4
+    },
+    {
+        "answers": "Kathmandu",
+        "score": 0.0
+    },
+    {
+        "answers": "King Robert II of Scotland",
+        "score": 0.1818181818181818
+    },
+    {
+        "answers": "John Paul Getty",
+        "score": 0.6666666666666666
+    },
+    {
+        "answers": "Goring-on-Thames, Oxfordshire",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Wooden Crosses",
+        "score": 1.0
+    },
+    {
+        "answers": "Above Rubies (1932)",
+        "score": 0.8
+    },
+    {
+        "answers": "Blue Blood And Red",
+        "score": 1.0
+    },
+    {
+        "answers": "Perth, Western Australia",
+        "score": 0.3333333333333333
+    },
+    {
+        "answers": "Lyudmyla Olyanovska",
+        "score": 1.0
+    },
+    {
+        "answers": "Y\u0131ld\u0131z Palace",
+        "score": 0.0
+    },
+    {
+        "answers": "Lotharingia",
+        "score": 0.0
+    },
+    {
+        "answers": "Henry Goes Arizona",
+        "score": 1.0
+    },
+    {
+        "answers": "United Kingdom",
+        "score": 1.0
+    },
+    {
+        "answers": "All-American Co-Ed",
+        "score": 1.0
+    },
+    {
+        "answers": "Buenos Aires",
+        "score": 1.0
+    },
+    {
+        "answers": "Duchess Magdalene Sibylle of Holstein-Gottorp",
+        "score": 0.22222222222222224
+    },
+    {
+        "answers": "Stahleck Castle",
+        "score": 0.0
+    },
+    {
+        "answers": "Faustina the Elder",
+        "score": 0.0
+    },
+    {
+        "answers": "Bajo otro sol",
+        "score": 1.0
+    },
+    {
+        "answers": "Lisa Azuelos",
+        "score": 0.0
+    },
+    {
+        "answers": "Val Kilmer",
+        "score": 0.0
+    },
+    {
+        "answers": "May 19, 1669",
+        "score": 1.0
+    },
+    {
+        "answers": "Castile",
+        "score": 0.0
+    },
+    {
+        "answers": "Miley Naa Miley Hum",
+        "score": 1.0
+    },
+    {
+        "answers": "Tom Mix In Arabia",
+        "score": 1.0
+    },
+    {
+        "answers": "Seven in the Sun",
+        "score": 1.0
+    },
+    {
+        "answers": "Dr. Socrates",
+        "score": 1.0
+    },
+    {
+        "answers": "Changeland",
+        "score": 1.0
+    },
+    {
+        "answers": "Ruel Redinger",
+        "score": 1.0
+    },
+    {
+        "answers": "Vasily Karatygin",
+        "score": 0.0
+    },
+    {
+        "answers": "Jessi Colter",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Erich Haenisch",
+        "score": 0.0
+    },
+    {
+        "answers": "Madleen Kane",
+        "score": 0.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Melody of the World",
+        "score": 1.0
+    },
+    {
+        "answers": "Seville",
+        "score": 0.0
+    },
+    {
+        "answers": "Oskar Roehler",
+        "score": 0.0
+    },
+    {
+        "answers": "La Belle Am\u00e9ricaine",
+        "score": 1.0
+    },
+    {
+        "answers": "New York",
+        "score": 0.0
+    },
+    {
+        "answers": "France",
+        "score": 0.0
+    },
+    {
+        "answers": "Nekfeu",
+        "score": 0.0
+    },
+    {
+        "answers": "Duke William of Mecklenburg-Schwerin's father-in-law is Prince Albert of Prussia.",
+        "score": 0.5714285714285715
+    },
+    {
+        "answers": "Yes",
+        "score": 1.0
+    },
+    {
+        "answers": "There is no mention of Anne Devereux's husband in the given passages.",
+        "score": 0.0
+    },
+    {
+        "answers": "Sir John Gore, Lord Mayor of London",
+        "score": 0.3333333333333333
+    },
+    {
+        "answers": "Egypt",
+        "score": 0.0
+    },
+    {
+        "answers": "Dayton, Ohio",
+        "score": 1.0
+    },
+    {
+        "answers": "Fay Wray",
+        "score": 0.0
+    },
+    {
+        "answers": "The Drover's Sweetheart",
+        "score": 1.0
+    },
+    {
+        "answers": "Kannada",
+        "score": 0.0
+    },
+    {
+        "answers": "Det Sande Ansigt",
+        "score": 1.0
+    },
+    {
+        "answers": "Il Gaucho",
+        "score": 0.0
+    },
+    {
+        "answers": "Beaulieu-sur-Loire",
+        "score": 0.0
+    },
+    {
+        "answers": "The PyrammmMid",
+        "score": 0.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Arsenic poisoning.",
+        "score": 0.6666666666666666
+    },
+    {
+        "answers": "American",
+        "score": 0.0
+    },
+    {
+        "answers": "Hawaii",
+        "score": 0.5
+    },
+    {
+        "answers": "X-Paroni",
+        "score": 1.0
+    },
+    {
+        "answers": "Vasantha Raagam",
+        "score": 1.0
+    },
+    {
+        "answers": "Lee Kun-hee",
+        "score": 0.5
+    },
+    {
+        "answers": "John the Fearless",
+        "score": 0.28571428571428575
+    },
+    {
+        "answers": "1839",
+        "score": 0.5
+    },
+    {
+        "answers": "Big Bear Lake, California",
+        "score": 0.0
+    },
+    {
+        "answers": "Jacques Dutronc",
+        "score": 0.0
+    },
+    {
+        "answers": "Charles Wheatstone (73 years)",
+        "score": 0.6666666666666666
+    },
+    {
+        "answers": "Bedford County, Virginia",
+        "score": 0.0
+    },
+    {
+        "answers": "Our Agent Tiger",
+        "score": 0.0
+    },
+    {
+        "answers": "Fernando Berm\u00fadez de Cea",
+        "score": 0.0
+    },
+    {
+        "answers": "Mira Sorvino",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Denmark",
+        "score": 0.0
+    },
+    {
+        "answers": "Chlothar",
+        "score": 0.0
+    },
+    {
+        "answers": "In 1291",
+        "score": 0.0
+    },
+    {
+        "answers": "None",
+        "score": 0.0
+    },
+    {
+        "answers": "3 September 1992",
+        "score": 1.0
+    },
+    {
+        "answers": "Nathaniel McLenaghan",
+        "score": 1.0
+    },
+    {
+        "answers": "University of Texas",
+        "score": 0.0
+    },
+    {
+        "answers": "Cuchillos De Fuego",
+        "score": 1.0
+    },
+    {
+        "answers": "The Ballad of Josie",
+        "score": 0.3333333333333333
+    },
+    {
+        "answers": "Everybody's Magazine",
+        "score": 0.0
+    },
+    {
+        "answers": "The Piper's Price",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "1761",
+        "score": 0.0
+    },
+    {
+        "answers": "No Trees In The Street",
+        "score": 1.0
+    },
+    {
+        "answers": "Methala, near Perumbavoor in Kerala",
+        "score": 0.33333333333333337
+    },
+    {
+        "answers": "Alkohol (1919)",
+        "score": 0.6666666666666666
+    },
+    {
+        "answers": "Do Musafir",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 1.0
+    },
+    {
+        "answers": "New York City",
+        "score": 0.8
+    },
+    {
+        "answers": "Tiger in the Smoke",
+        "score": 0.0
+    },
+    {
+        "answers": "India",
+        "score": 0.0
+    },
+    {
+        "answers": "The Comedians of Comedy",
+        "score": 1.0
+    },
+    {
+        "answers": "Waiting For The Clouds",
+        "score": 0.0
+    },
+    {
+        "answers": "Bomma Borusa",
+        "score": 0.0
+    },
+    {
+        "answers": "Perd\u00f3n, Viejita",
+        "score": 1.0
+    },
+    {
+        "answers": "University of Wisconsin-Madison",
+        "score": 0.6666666666666666
+    },
+    {
+        "answers": "Juan Ren\u00e9 Serrano",
+        "score": 0.0
+    },
+    {
+        "answers": "Mirjam Polkunen",
+        "score": 1.0
+    },
+    {
+        "answers": "Saint Petersburg",
+        "score": 1.0
+    },
+    {
+        "answers": "Menno Meyjes",
+        "score": 0.0
+    },
+    {
+        "answers": "Women's Suffrage Journal",
+        "score": 1.0
+    },
+    {
+        "answers": "Fairmont, West Virginia",
+        "score": 1.0
+    },
+    {
+        "answers": "Mayor Muthanna",
+        "score": 0.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "1182",
+        "score": 0.0
+    },
+    {
+        "answers": "Ur",
+        "score": 0.0
+    },
+    {
+        "answers": "Tarzan The Magnificent",
+        "score": 1.0
+    },
+    {
+        "answers": "Wolf Warrior",
+        "score": 1.0
+    },
+    {
+        "answers": "Tr\u1ecbnh C\u01b0\u01a1ng",
+        "score": 0.5
+    },
+    {
+        "answers": "Berlin",
+        "score": 0.0
+    },
+    {
+        "answers": "August 15, 1985",
+        "score": 0.0
+    },
+    {
+        "answers": "Poveri Milionari",
+        "score": 0.0
+    },
+    {
+        "answers": "Adolf III of Berg",
+        "score": 0.75
+    },
+    {
+        "answers": "No",
+        "score": 1.0
+    },
+    {
+        "answers": "M\u00fclheim an der Ruhr",
+        "score": 1.0
+    },
+    {
+        "answers": "Una Prostituta Al Servizio Del Pubblico E In Regola Con Le Leggi Dello Stato",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Prince Bhanurangsi Savangwongse",
+        "score": 0.0
+    },
+    {
+        "answers": "Elizabeth Heneage",
+        "score": 0.0
+    },
+    {
+        "answers": "The director of film L'Arbre, Le Maire Et La M\u00e9diath\u00e8que works at the Sam Spiegel Film and Television School.",
+        "score": 0.0
+    },
+    {
+        "answers": "Peter Greenaway",
+        "score": 0.0
+    },
+    {
+        "answers": "Orange County, Virginia",
+        "score": 0.4
+    },
+    {
+        "answers": "Romania",
+        "score": 0.0
+    },
+    {
+        "answers": "Pier-Luc Funk",
+        "score": 0.0
+    },
+    {
+        "answers": "Georg I, Duke of Saxe-Meiningen",
+        "score": 0.0
+    },
+    {
+        "answers": "Stephen I of Hungary",
+        "score": 0.0
+    },
+    {
+        "answers": "Thuya",
+        "score": 0.0
+    },
+    {
+        "answers": "5 September 1896",
+        "score": 0.0
+    },
+    {
+        "answers": "Guy Newall",
+        "score": 0.0
+    },
+    {
+        "answers": "1813",
+        "score": 0.5
+    },
+    {
+        "answers": "The Yellow Teddy Bears",
+        "score": 0.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Antoine Casavant",
+        "score": 1.0
+    },
+    {
+        "answers": "Columbia College",
+        "score": 0.0
+    },
+    {
+        "answers": "Sir John Gage",
+        "score": 0.25
+    },
+    {
+        "answers": "Murderer in the Fog",
+        "score": 1.0
+    },
+    {
+        "answers": "Kurt Russell",
+        "score": 0.0
+    },
+    {
+        "answers": "In 1360",
+        "score": 0.0
+    },
+    {
+        "answers": "Special Jury Prize for Libertarian Ideals",
+        "score": 0.0
+    },
+    {
+        "answers": "German",
+        "score": 0.0
+    },
+    {
+        "answers": "Eldar Ryazanov",
+        "score": 0.0
+    },
+    {
+        "answers": "Inverkeithing, Fife, Scotland",
+        "score": 0.5
+    },
+    {
+        "answers": "After the death of his father, who left no legitimate sons, King Alexander II of Scotland planned to divide the lordship between the husbands of Alan of Gallow",
+        "score": 0.0
+    },
+    {
+        "answers": "1601",
+        "score": 0.0
+    },
+    {
+        "answers": "The Wind's Fierce",
+        "score": 1.0
+    },
+    {
+        "answers": "He died by suicide by drowning himself in his Pacific Palisades swimming pool on 29 May 1957.",
+        "score": 0.1111111111111111
+    },
+    {
+        "answers": "Egypt",
+        "score": 0.0
+    },
+    {
+        "answers": "East Berlin",
+        "score": 0.0
+    },
+    {
+        "answers": "Pozna\u0144",
+        "score": 1.0
+    },
+    {
+        "answers": "Italy",
+        "score": 1.0
+    },
+    {
+        "answers": "London",
+        "score": 0.0
+    },
+    {
+        "answers": "The Third Kiss (1919 film)",
+        "score": 0.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "Robert Wulnikowski",
+        "score": 0.0
+    },
+    {
+        "answers": "Duilio Coletti",
+        "score": 0.0
+    },
+    {
+        "answers": "From Corleone to Brooklyn",
+        "score": 1.0
+    },
+    {
+        "answers": "Yes",
+        "score": 1.0
+    },
+    {
+        "answers": "Vienna",
+        "score": 1.0
+    },
+    {
+        "answers": "Johnny Ekstr\u00f6m",
+        "score": 1.0
+    },
+    {
+        "answers": "No",
+        "score": 0.0
+    },
+    {
+        "answers": "English",
+        "score": 0.0
+    },
+    {
+        "answers": "Parkinson's disease",
+        "score": 0.0
+    },
+    {
+        "answers": "Richard de Beauchamp, 13th Earl of Warwick",
+        "score": 0.30769230769230765
+    },
+    {
+        "answers": "Ali Dinar",
+        "score": 0.0
+    },
+    {
+        "answers": "Charles V",
+        "score": 0.0
+    },
+    {
+        "answers": "Italia-Germania 4-3",
+        "score": 0.0
+    },
+    {
+        "answers": "Italy",
+        "score": 0.0
+    },
+    {
+        "answers": "K\u00f6ln",
+        "score": 1.0
+    }
+]
+2026-11-11 05:26:07,559 | INFO : ##### And below is the processed_results: #####
+2026-11-11 05:26:07,559 | INFO : {
+    "qa_f1_score": 37.77
+}
+2026-11-11 05:26:07,575 | INFO : output_config file saved to results/longbench/baseline/Llama-3.2-3B-Instruct/2wikimqa/output_config.json.
+2026-11-11 05:26:07,576 | INFO : Experiment longbench_2wikimqa_Llama-3.2-3B-Instruct_baseline ended at 2026-11-11 05:26:07.559526-06:00. Duration: 0:01:48.216294
