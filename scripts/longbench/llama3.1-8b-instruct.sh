@@ -108,23 +108,23 @@ method=$1
 output_dir_root=$2
 
 task="longbench"
-model="llama3.1-8b-instruct"
+model="Llama-3.2-3B-Instruct"
 
 if [ $method == "baseline" ]; then
   for dataset in narrativeqa qasper multifieldqa_en hotpotqa 2wikimqa musique gov_report qmsum multi_news trec triviaqa samsum passage_retrieval_en passage_count lcc repobench-p; do
-    python pipeline/${method}/main.py \
+    uv run python pipeline/${method}/main.py \
     --method ${method} \
     --exp_desc ${task}_${dataset}_${model}_${method} \
     --pipeline_config_dir config/pipeline_config/${task}/${model}.json \
     --eval_config_dir config/eval_config/${task}/${dataset}.json \
     --output_folder_dir ${output_dir_root}/${task}/${method}/${model}/${dataset}/
   done
-  python visualization/longbench_results_summary/long_bench_tasks_summary.py \
+  uv run python visualization/longbench_results_summary/long_bench_tasks_summary.py \
     --output_dir ${output_dir_root}/${task}/${method}/${model}/  
 else
   token_budget=$3
   for dataset in narrativeqa qasper multifieldqa_en hotpotqa 2wikimqa musique gov_report qmsum multi_news trec triviaqa samsum passage_retrieval_en passage_count lcc repobench-p; do
-    python pipeline/inf_stream_llm/main.py \
+    uv run python pipeline/inf_stream_llm/main.py \
     --method ${method} \
     --token_budget ${token_budget} \
     --exp_desc ${task}_${dataset}_${model}_${method}_${token_budget} \
@@ -132,6 +132,6 @@ else
     --eval_config_dir config/eval_config/${task}/${dataset}.json \
     --output_folder_dir ${output_dir_root}/${task}/${method}/${token_budget}/${model}/${dataset}/
   done
-  python visualization/longbench_results_summary/long_bench_tasks_summary.py \
+  uv run python visualization/longbench_results_summary/long_bench_tasks_summary.py \
     --output_dir ${output_dir_root}/${task}/${method}/${token_budget}/${model}/
 fi

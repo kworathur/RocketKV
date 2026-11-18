@@ -94,12 +94,12 @@ for max_seq_length in '16384' '31744' '65536' '96256'; do
     if [ $method == "baseline" ]; then
       output_dir=${output_dir_root}/${task}_${max_seq_length}/${method}/${model}/BS_${batch_size}
       mkdir -p ${output_dir}
-      python gpt-fast/generate.py --compile --batch_size ${batch_size} --checkpoint_path gpt-fast/checkpoints/meta-llama/Meta-Llama-3.1-8B/model.pth  --prompt ${max_seq_length} &> ${output_dir}/results.log
+      uv run python gpt-fast/generate.py --compile --batch_size ${batch_size} --checkpoint_path gpt-fast/checkpoints/meta-llama/Meta-Llama-3.1-8B/model.pth  --prompt ${max_seq_length} &> ${output_dir}/results.log
     else
       token_budget=$3
       output_dir=${output_dir_root}/${task}_${max_seq_length}/${method}/${token_budget}/${model}/BS_${batch_size}
       mkdir -p ${output_dir}
-      python gpt-fast/generate.py --compile --batch_size ${batch_size} --checkpoint_path gpt-fast/checkpoints/meta-llama/Meta-Llama-3.1-8B/model.pth  --prompt ${max_seq_length} --${method} --token_budget ${token_budget} &> ${output_dir}/results.log
+      uv run python gpt-fast/generate.py --compile --batch_size ${batch_size} --checkpoint_path gpt-fast/checkpoints/meta-llama/Meta-Llama-3.1-8B/model.pth  --prompt ${max_seq_length} --${method} --token_budget ${token_budget} &> ${output_dir}/results.log
     fi
   done
 done

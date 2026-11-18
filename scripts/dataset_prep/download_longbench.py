@@ -34,5 +34,5 @@ if not os.path.isdir(save_dir):
         os.makedirs(save_dir)
 
 for dataset in all_datasets:
-    data = load_dataset('THUDM/LongBench', dataset, split='test')
+    data = load_dataset('THUDM/LongBench', dataset, split='test', trust_remote_code=True)
     data.save_to_disk(os.path.join(save_dir, dataset))

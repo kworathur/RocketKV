@@ -85,4 +85,4 @@
 # =======================================================================
 
 cd gpt-fast
-./scripts/prepare.sh meta-llama/Meta-Llama-3.1-8B 
+./scripts/prepare.sh meta-llama/Llama-3.2-3B-Instruct 
