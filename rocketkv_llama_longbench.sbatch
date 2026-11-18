@@ -19,4 +19,5 @@ uv pip install --no-build-isolation flash-attn==2.6.3
 uv run python scripts/dataset_prep/download_longbench.py
 
 # reproduce longbench accuracy vs. token budget curves
-bash scripts/longbench/Llama-3.2-3B-Instruct.sh baseline results 
+# bash scripts/longbench/Llama-3.2-3B-Instruct.sh baseline results 
+bash scripts/longbench/Llama-3.2-3B-Instruct.sh rocket results 256
