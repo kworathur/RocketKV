@@ -178,6 +178,23 @@ transformer_configs = {
     "llama-3.1-405b": dict(block_size=131072, n_layer=126, n_head=128, n_local_heads=8, dim=16384, intermediate_size=53248, vocab_size=128256, rope_base=500000,
         rope_scaling=dict(factor=8.0, low_freq_factor=1.0, high_freq_factor=4.0, original_max_position_embeddings=8192),
     ),
+    "llama-3.2-3b-instruct-fp8": dict(
+    block_size=131072,
+    vocab_size=128256,
+    n_layer=28,
+    n_head=24,
+    n_local_heads=8,
+    dim=3072,
+    intermediate_size=8192,
+    rope_base=500000,
+    norm_eps=1e-5,
+    rope_scaling=dict(
+        factor=32.0,
+        low_freq_factor=1.0,
+        high_freq_factor=4.0,
+        original_max_position_embeddings=8192,
+    ),
+),
 }
 
 class KVCache(nn.Module):

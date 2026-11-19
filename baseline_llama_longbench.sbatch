@@ -22,4 +22,4 @@ bash scripts/dataset_prep/download_gpt_fast.sh
 uv run python scripts/dataset_prep/download_longbench.py
 
 # reproduce longbench accuracy vs. token budget curves
-bash scripts/longbench/llama3.1-8b-instruct.sh baseline results 
+bash scripts/longbench/Llama-3.2-3B-Instruct-FP8.sh baseline results 

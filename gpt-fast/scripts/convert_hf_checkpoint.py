@@ -102,6 +102,10 @@ def convert_hf_checkpoint(
 
         final_result[new_key] = value
 
+
+    if "output.weight" not in final_result:
+        final_result["output.weight"] = final_result["tok_embeddings.weight"]
+
     for key in tuple(final_result.keys()):
         if "wq" in key:
             q = final_result[key]
