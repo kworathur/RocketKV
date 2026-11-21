@@ -6,7 +6,7 @@ from transformers import (
 )
 
 model_id = "RedHatAI/Llama-3.2-3B-Instruct-FP8"
-output_dir = "./models/Llama-3.2-3B-FP8-dequantized"
+output_dir = "./models/Llama-3.2-3B-Instruct-FP8-dequantized"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_id,
