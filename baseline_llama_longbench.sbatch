@@ -15,11 +15,9 @@ set -Eeuo pipefail
 source .venv/bin/activate
 uv pip install --no-build-isolation flash-attn==2.6.3
 
-# First prepare llama3.1-8b for experiments
-bash scripts/dataset_prep/download_gpt_fast.sh
 
 # download longbench dataset
 uv run python scripts/dataset_prep/download_longbench.py
 
 # reproduce longbench accuracy vs. token budget curves
-bash scripts/longbench/Llama-3.2-3B-Instruct-FP8.sh baseline results 
+bash scripts/longbench/Llama-3.2-3B-Instruct-FP8-dequantized.sh baseline results 
